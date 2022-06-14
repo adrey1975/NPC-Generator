@@ -1,3 +1,6 @@
-let images = ["images/easy-pete.jpg"];
+var myPix = new Array ("images/easy-pete.jpg", "images/patches.jpg");
 
-const myBtn = document.getElementById("myBtn");
+function choosePic() {
+    var randomNum = Math.floor(Math.random() * myPix.length);
+    document.getElementById("npcs").src = myPix[randomNum];
+}
