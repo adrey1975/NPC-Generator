@@ -6,9 +6,11 @@ function choosePic() {
     var randomNum = Math.floor(Math.random() * myPix.length);
     document.getElementById("npcs").src = myPix[randomNum];
     
+    // This checks which npc was generated in order to output
+    // correct text.
     if(myPix[randomNum] === "images/easy-pete.jpg") {
         document.getElementById('npc').value='Easy Pete!';
-    } else {
+    } else if (myPix[randomNum] === "images/patches.jpg"){
         document.getElementById('npc').value='Patches!';
     }
 
