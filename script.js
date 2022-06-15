@@ -7,9 +7,9 @@ function choosePic() {
     document.getElementById("npcs").src = myPix[randomNum];
     
     if(myPix[randomNum] === "images/easy-pete.jpg") {
-        alert("Easy Pete!")
+        document.getElementById('npc').value='Easy Pete!';
     } else {
-        alert("Patches!")
+        document.getElementById('npc').value='Patches!';
     }
 
 }
