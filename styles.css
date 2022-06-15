@@ -5,21 +5,28 @@ body {
     align-items: center;
     min-height: 100vh;
     background-color: #9fc2ba;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: 100;
 }
 
 img {
     width: 100%;
-    max-width: 300px; 
+    max-width: 325px; 
     padding: .5rem;
     border: 2px solid #111;
     border-radius: 20%; 
     margin: 1.5rem;
 }
 
-div {
-    margin: 1.5rem;
+output {
+    font-size: 30px;
+}
+
+button{
+    font-size: 1.5rem;
+    border-radius: 20%;
 }
