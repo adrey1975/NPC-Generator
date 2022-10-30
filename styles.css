@@ -26,9 +26,24 @@ output {
     font-size: 30px;
 }
 
-button{
+.btn {
     font-size: 1.5rem;
-    border-radius: 20%;
-    margin-bottom: 1.5em;
-    margin-top:  .5em;
+    margin: .3em;
+    align-items: center;
+    font-weight: 200;
+    
+
+    cursor: pointer;
+    transition: 100ms;
+    padding: 0.25em 1em;
+
+    border-radius: 00.25em;
+ 
+    
+}
+
+.btn:hover{
+    background-color: rgb(189, 129, 7);
+    color:#9fc2ba;
+    transform: scale(1.2);
 }
